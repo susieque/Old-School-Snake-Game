@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let intervalTime = 0;
 	let interval = 0;
 
-	//to start, and restart the game
+	//to start, and restart the game.
 	function startGame() {
 		currentSnake.forEach((index) => squares[index].classList.remove("snake"));
 		squares[appleIndex].classList.remove("apple");
